@@ -8,9 +8,9 @@ Esta es una ruta de aprendizaje la cual cumple como objetivo dejar documentado t
 * 🎨Estilos Gráficos UI - lvl 3-4
 * 📚Frameworks, Librerias etc - lvl 3-4
 * ⌨Lógica de Programación - lvl 3-4
-* ⚙Comunicación y Persistencia
-* 🛠Codificación
-* 📀Principios de Software
+* ⚙Comunicación y Persistencia - lvl 3-4
+* 🛠Codificación - lvl 3-4
+* 📀Principios de Software - lvl 3-4
 
 ---
 ## Objetivo
