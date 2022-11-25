@@ -16,8 +16,7 @@ Dentro de esta sección veremos los que forman parte de los comandos básicos o 
 * Git merge
 * Git config
 * Git init
-* Git reset
-* Git rebase
+
 ---
 
 ## Que, Como o Para Que!✨
@@ -207,11 +206,77 @@ git checkout dev
 git merge <branch-name>
 
 ```
+---
 
+### ✔ **Git config**
 
+Este comando nos da la función de definir valores de configuración de git, sea localmente o global. Propiedades que se pueden configurar son el nombre, correo o propios del editor.
 
+Para hacer uso de este comando, hay que tener en cuenta que cada configuración están definidos por una "sección" y una "clave" ejemplo (user.email).
 
+```
+- Extraer valor de email
 
+git config user.email
+
+- definir valor a email globalmente
+
+git config --global user.email "your_email@example.com"
+
+```
+
+Niveles a los que se pueden hacer los comandos:
+
+```
+Nivel local
+
+--local
+
+Nivel global
+
+--global
+
+Nivel del sistema
+
+--system
+
+```
+---
+
+### ✔ **Git init**
+
+Este comando es uno de los primeros comandos que se ejecutan al crear un repositorio, lo que hace es generar una carpeta vacía o un directorio cualquiera en un repositorio git, creando y configurando la carpeta .git .
+
+```
+- Inicializar un repositorio
+
+git init
+
+- Inicializar un repositorio en base a un directorio
+
+git init <directory>
+
+```
+
+Hay configuraciones extras para usar el git init, esto para características especificas:
+
+* ```
+  --QUIET or -Q 
+Hace que solo se notifiquen errores, advertencias y mensajes de nivel critico.
+
+* ```
+  --BARE
+Crea un repositorio bare (Simplificado es un repositorio el cual puede ser un sub modulo, pero sus cambios no se verán reflejados en el repositorio principal).
+
+* ```
+  --TEMPLATE=
+Esta configuración permite que al crear un repositorio definir una carpeta donde se alojan plantillas, también usar plantilla con hooks (Scripts increíblemente personalizables para automatizar o optimizar el funcionamiento de git dentro del proyecto, en determinados eventos del repositorio)
+
+* ```
+  --SEPARATE-GIT-DIR=
+Esta configuración funciona para crear un archivo el cual actúa como enlace al directorio **.git**. Esto es util si queremos almacenar nuestro directorio .git en un lugar en especifico.
+
+Algunos casos de usos son para ocultar las configuraciones del sistema, cuando el historial de git ocupa bastante espacio.
 
 ---
 ## Curiosidades 🤯
