@@ -4,13 +4,13 @@ Esta es una ruta de aprendizaje la cual cumple como objetivo dejar documentado t
 
 ## Contenido
 
-* 🎃Versionamiento (GIT) - lvl 3-4
-* 🎨Estilos Gráficos UI - lvl 3-4
-* 📚Frameworks, Librerías etc - lvl 3-4
-* ⌨Lógica de Programación - lvl 3-4
-* ⚙Comunicación y Persistencia - lvl 3-4
-* 🛠Codificación - lvl 3-4
-* 📀Principios de Software - lvl 3-4
+* 🎃Versionamiento (GIT) 
+* 🎨Estilos Gráficos UI 
+* 📚Frameworks, Librerías etc 
+* ⌨Lógica de Programación 
+* ⚙Comunicación y Persistencia 
+* 🛠Codificación 
+* 📀Principios de Software 
 
 ---
 ## Objetivo
