@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(174, 237, 250);
+}
+
+.flex-container{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(179, 179, 179);
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-bottom: 5px;
+}
+
+.box {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: White;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex-container-two {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(179, 179, 179);
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.b1 {
+    background: rgb(254, 133, 34);
+    order: 8;
+    flex-grow: 5;
+}
+
+.b2 {
+    background: rgb(250, 253, 86);
+    order: 7;
+    flex-grow: 1;
+}
+
+.b3 {
+    background: rgb(253, 217, 86);
+    order: 1;
+    flex-grow: 5;
+}
+
+.b4 {
+    background: rgb(253, 86, 86);
+    order: 3;
+    flex-grow: 6;
+}
+
+.b5 {
+    background: rgb(86, 253, 225);
+    order: 9;
+    flex-grow: 1;
+}
+
+.b6 {
+    background: rgb(86, 253, 94);
+    order: 2;
+    flex-grow: 10;
+}
+
+.b7 {
+    background: rgb(156, 86, 253);
+    order: 10;
+    flex-grow: 10;
+}
+
+.b8 {
+    background: rgb(89, 86, 253);
+    order: 4;
+    flex-grow: 1;
+}
+
+.b9 {
+    background: rgb(253, 86, 139);
+    order: 6;
+    flex-grow: 1;
+}
+
+.b10 {
+    background: rgb(86, 253, 158);
+    order: 5;
+    flex-grow: 5;
+}

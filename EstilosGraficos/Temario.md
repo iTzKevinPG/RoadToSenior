@@ -25,6 +25,12 @@ Este tipo de maquetación permite ajustar la orientación de la pagina web depen
 Mientras que Bootstrap es un framework destacado en sus retículas (Grid), estilos de texto y variedades de funcionalidades, Material no, este esta mas enfocado en la apariencia de la pagina fácil uso y implementación, aunque también cuenta con su sistema de grillas (Grid).
 
 Bootstrap es mas completo en cuanto a pequeños detalles a la hora de la construcción de diseños, pero Material esta muy por encima gráficamente.
+
+## Temas
+
+🦾 FlexBox
+
+🧠 Css Grid
  
  
  
