@@ -1,0 +1,25 @@
+
+body {
+    padding: 1rem;
+}
+
+.ul-container {
+    border: 1px solid black;
+    background: beige;
+}
+
+.ul-container ul li,
+.ul-container-columns ul li{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ul-container ul,
+.ul-container-columns ul{
+    padding: 0;
+}
+
+.ul-container-columns {
+    border: 1px solid black;
+    background: rgb(69, 200, 220);
+}
